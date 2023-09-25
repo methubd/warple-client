@@ -1,9 +1,12 @@
+import AboutBanner from './AboutBanner/AboutBanner';
 import './AboutPage.css'
+import WhatIsWarple from './WhatIsWarple/WhatIsWarple';
 
 const AboutPage = () => {
     return (
         <div>
-            <h1>About Page</h1>
+            <AboutBanner/>
+            <WhatIsWarple/>
         </div>
     );
 };

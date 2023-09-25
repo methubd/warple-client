@@ -1,0 +1,33 @@
+.what-is-warple-container{
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 1rem;
+}
+
+.wiw-img-container{
+    
+}
+
+.wiw-img{
+    width: 100%;
+}
+
+.wiw-title{
+    color: var(--text-sub-btn-color);
+}
+
+.wiw-line{
+    width: 50%;
+    margin: 50px 0;
+    border: 1px solid var(--bg-sub-second-color);
+    
+}
+
+@media screen and (max-width: 576px) {
+    .what-is-warple-container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,53 @@
+.about-banner-container {
+    position: relative;
+    padding: 8rem;
+    color: white; 
+    font-size: 42px;
+}
+
+.about-banner-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, white 0%, #808080 100%);
+    opacity: 0.5; 
+    z-index: -1; 
+}
+
+.about-banner-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.ibb.co/5GbZsr3/group-friends.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+
+.text-at-bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 90px; 
+    
+}
+
+/* Title Styles */
+.banner-sub-title{
+    position: absolute;
+    font-size: 18px;
+    background: white;
+    color: var(--text-sub-btn-color);
+    padding: 0 20px;
+    text-align: center;
+}
+
+.banner-title{
+    font-weight: 400;
+}
