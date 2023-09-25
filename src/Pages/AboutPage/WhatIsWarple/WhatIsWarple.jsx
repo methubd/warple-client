@@ -1,5 +1,6 @@
 import './WhatIsWarple.css';
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
+import ButtonArrow from '../../../Components/ButtonArrow/ButtonArrow';
 
 const WhatIsWarple = () => {
     return (
@@ -22,6 +23,9 @@ const WhatIsWarple = () => {
                     てをインターネット上で完結させることにより、どこよりも安 <br /> 
                     く、どこよりもあなたらしく、留学が実現できるサービスです。</p>
                 </div>
+            </div>
+            <div className='wiw-btn-container'>
+                <button className='btn-primary'>初めての方へ <ButtonArrow/> </button>
             </div>
         </section>
     );

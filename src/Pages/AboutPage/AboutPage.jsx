@@ -1,5 +1,6 @@
 import AboutBanner from './AboutBanner/AboutBanner';
 import './AboutPage.css'
+import Point from './Point/Point';
 import WhatIsWarple from './WhatIsWarple/WhatIsWarple';
 
 const AboutPage = () => {
@@ -7,6 +8,7 @@ const AboutPage = () => {
         <div>
             <AboutBanner/>
             <WhatIsWarple/>
+            <Point/>
         </div>
     );
 };

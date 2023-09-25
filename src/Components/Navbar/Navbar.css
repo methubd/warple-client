@@ -1,13 +1,17 @@
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
-    
+
     padding: 2rem 3rem;
     background-color: var(--bg-main-color);
     color: var(--text-sub-btn-color);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+
+    position: fixed;
+    width: calc(100% - 6rem);
+    z-index: 1;
 }
 
 .warple-nav-link-container{
@@ -43,6 +47,7 @@ nav{
 @media screen and (max-width: 950px)  {
     nav{
         padding: 1rem 18px;
+        width: calc(100% - 2rem);
     }
     .width-screen-navbar{
         display: none;

@@ -16,6 +16,10 @@
 }
 
 @media screen and (max-width: 576px) {
+    .section-title-container{
+        padding: 40px 0;
+    }
+
     .section-main-title{
         font-size: 40px;
     }

@@ -1,0 +1,43 @@
+.point-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 60px;
+    padding: 0 1rem;
+}
+
+.point h1{
+    color: var(--text-sub-btn-color);
+}
+
+.point-img-container {
+    width: 350px;
+}
+
+.point-img {
+    width: 100%;
+}
+
+/* Hiding Number element from Small Screen */
+.point-two-small-screen{
+    display: none;
+}
+
+@media screen and (max-width: 766px) {
+    .point-container {
+        flex-direction: column; 
+    }
+
+    .point{
+        margin-top: 4rem;
+    }
+
+    .point-two-big-screen{
+        display: none;
+    }
+
+    .point-two-small-screen{
+        display: block;
+    }
+
+}
