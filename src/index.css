@@ -1,0 +1,15 @@
+*{
+  margin: 0 0 0 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+:root{
+  --text-color: #000000;
+  --text-sub-btn-color: #1A35C9;
+  --bg-main-color: #FFFFFF;
+  --bg-sub-color: #F4F4F4;
+  --bg-sub-second-color: #FFD0CC;
+  --active-color: #0e1f81;
+}
+
+

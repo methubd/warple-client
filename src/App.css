@@ -1,0 +1,17 @@
+.btn-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: var(--text-sub-btn-color);
+    transition: 0.3s;
+}
+
+.btn-primary:active{
+    background-color: var(--active-color);
+}

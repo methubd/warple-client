@@ -1,0 +1,14 @@
+.btn-arrow-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    padding: 5px;
+    border-radius: 50%;
+    background: white;
+}
+
+.btn-arrow{
+    width: 100%;
+}

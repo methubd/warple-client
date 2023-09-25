@@ -1,0 +1,34 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    background-color: var(--bg-main-color);
+    color: var(--text-sub-btn-color);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.warple-nav-link-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.warple-navlink{
+    text-decoration: none;
+    color: var(--text-sub-btn-color);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.warple-navlink:active{
+    color: var(--active-color);
+}
+
+.warple-navlink-title-eng{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.warple-navlink-title-jp{
+    font-size: 15px;
+}
