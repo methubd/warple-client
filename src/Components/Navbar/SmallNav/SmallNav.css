@@ -1,0 +1,13 @@
+.small-nav-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-toggle{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: var(--text-sub-btn-color);
+
+}

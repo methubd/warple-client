@@ -9,7 +9,7 @@
     padding: 10px 30px;
     border-radius: 50px;
     background-color: var(--text-sub-btn-color);
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .btn-primary:active{

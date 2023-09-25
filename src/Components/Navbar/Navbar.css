@@ -1,6 +1,8 @@
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
     padding: 2rem 3rem;
     background-color: var(--bg-main-color);
     color: var(--text-sub-btn-color);
@@ -17,7 +19,7 @@ nav{
     text-decoration: none;
     color: var(--text-sub-btn-color);
     text-align: center;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .warple-navlink:active{
@@ -31,4 +33,22 @@ nav{
 
 .warple-navlink-title-jp{
     font-size: 15px;
+}
+
+.small-screen-navbar{
+    display: none;
+}
+
+/* Medium Screen */
+@media screen and (max-width: 950px)  {
+    nav{
+        padding: 1rem 18px;
+    }
+    .width-screen-navbar{
+        display: none;
+    }
+
+    .small-screen-navbar{
+        display: block;
+    }
 }
