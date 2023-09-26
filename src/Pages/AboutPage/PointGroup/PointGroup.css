@@ -1,0 +1,19 @@
+.point-group-container{
+    margin-top: 5rem;
+    padding: 90px;
+    background-color: var(--bg-sub-second-color);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.point-middle{
+    background-color: white;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 770px) {
+    .point-group-container{
+        margin-top: 5rem;
+        padding: 4rem 20px;
+    }
+}

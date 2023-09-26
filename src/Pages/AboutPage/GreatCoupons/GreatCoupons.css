@@ -1,0 +1,42 @@
+.great-coupons-container{
+    text-align: center;
+    background-color: var(--bg-sub-second-color);
+    padding: 50px 0;
+
+    background-image: url('https://i.ibb.co/52fj0m0/air-ticket-symbol-1.png'), url('https://i.ibb.co/VSRsfG0/air-ticket-symbol-2.png');
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+    background-size: contain, contain;
+}
+
+.great-coupons-container h1 {
+    font-size: 48px;
+    color: var(--text-sub-btn-color);
+}
+
+.gc-head-bg{
+    background-color: white;
+    padding-left: 1rem;
+}
+
+.great-coupon-btn-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 770px) {
+    .great-coupons-container{
+        text-align: center;
+        background-color: var(--bg-sub-second-color);
+        padding: 50px 0;
+    
+        background-image: url('https://i.ibb.co/52fj0m0/air-ticket-symbol-1.png'), none;
+        background-size: 20%;
+    }
+
+    .great-coupons-container h1 {
+        font-size: 25px;
+        
+    }
+}

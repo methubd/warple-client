@@ -54,8 +54,6 @@ const Point = () => {
                         </p>
                     </div>
                 </div>
-
-                {/* Point - 2 for Big Screen */}
                     <div className='point point-two-big-screen'>
                         <div className='point-img-container'>
                             <img className='point-img' src="https://i.ibb.co/PWdvpmr/warple-point-2.png" alt="" />
