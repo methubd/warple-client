@@ -10,7 +10,7 @@ const Difference = () => {
             ></SectionTitle>
             <div>
                 <div>
-                    
+                    <h1>留学費用</h1>
                 </div>
             </div>
         </section>

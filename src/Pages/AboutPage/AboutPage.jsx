@@ -7,6 +7,7 @@ import HowToUse from './HowToUse/HowToUse';
 import Point from './Point/Point';
 import PointGroup from './PointGroup/PointGroup';
 import WhatIsWarple from './WhatIsWarple/WhatIsWarple';
+import Footer from '../Shared/Footer/Footer';
 
 const AboutPage = () => {
     return (
@@ -18,6 +19,8 @@ const AboutPage = () => {
             <GreatCoupons/>
             <HowToUse/>
             <Difference/>
+            <GreatCoupons/>
+            <Footer/>
         </div>
     );
 };
