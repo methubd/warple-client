@@ -1,6 +1,9 @@
-import AboutBanner from './AboutBanner/AboutBanner';
 import './AboutPage.css'
+
+import AboutBanner from './AboutBanner/AboutBanner';
+import Difference from './Difference/Difference';
 import GreatCoupons from './GreatCoupons/GreatCoupons';
+import HowToUse from './HowToUse/HowToUse';
 import Point from './Point/Point';
 import PointGroup from './PointGroup/PointGroup';
 import WhatIsWarple from './WhatIsWarple/WhatIsWarple';
@@ -13,6 +16,8 @@ const AboutPage = () => {
             <Point/>
             <PointGroup/>
             <GreatCoupons/>
+            <HowToUse/>
+            <Difference/>
         </div>
     );
 };
